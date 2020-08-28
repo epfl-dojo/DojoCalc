@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <body>
+    <h1>Dojo js calculator</h1>
 
-<body>
-	<h1>Hello Dojo</h1>
+    <div id='calc1' class='calculator'>
+      <span id='calc-display1' class='display'></span>
 
-  <div id='calc1' class='calculator'>
-    <span id='calc-display1' class='display'>1234</span>
+      <button class='operator button-ce'>CE</button>
+      <button class='operator'>/</button>
+      <button class='operator'>*</button>
+      <button class='operator'>-</button>
 
-    <button class='operator'>CE</button>
-    <button class='operator'>/</button>
-    <button class='operator'>*</button>
-    <button class='operator'>-</button>
+      <button class='digit'>7</button>
+      <button class='digit'>8</button>
+      <button class='digit'>9</button>
+      <button class='operator button-plus' style='grid-row: 3 / span 2; grid-column: 4 / 4;'>+</button>
 
-    <button class='digit'>7</button>
-    <button class='digit'>8</button>
-    <button class='digit'>9</button>
-    <button class='operator button-plus' style='grid-row: 3 / span 2; grid-column: 4 / 4;'>+</button>
+      <button class='digit'>4</button>
+      <button class='digit'>5</button>
+      <button class='digit'>6</button>
 
-    <button class='digit'>4</button>
-    <button class='digit'>5</button>
-    <button class='digit'>6</button>
+      <button class='digit'>1</button>
+      <button class='digit'>2</button>
+      <button class='digit'>3</button>
+      <button class='operator button-submit' style='grid-row: 5 / span 2; grid-column: 4 / 4;'>=</button>
 
-    <button class='digit'>1</button>
-    <button class='digit'>2</button>
-    <button class='digit'>3</button>
-    <button class='operator button-submit' style='grid-row: 5 / span 2; grid-column: 4 / 4;'>=</button>
+      <button class='digit' style='grid-column: 1 / span 2;'>0</button>
+      <button class='operator'>.</button>
 
-    <button class='digit' style='grid-column: 1 / span 2;'>0</button>
-    <button class='operator'>.</button>
-
-  </div>
-
-
-
+    </div>
 
     <script src="script.js"></script>
-<img style="max-height: 250px;" src="https://www.ebuyer.com/blog/wp-content/uploads/2014/07/buttons-on-a-calculator-header1.jpg">
+    <!-- <img style="max-height: 250px;" src="https://www.ebuyer.com/blog/wp-content/uploads/2014/07/buttons-on-a-calculator-header1.jpg"> -->
   </body>
 </html>

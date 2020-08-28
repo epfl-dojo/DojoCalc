@@ -14,12 +14,15 @@
   background-color: #FFD;
   border: 1px #E6E6C3 solid;
   padding: 5px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  height: 50px;
 }
 
 .calculator button {
   padding: 5px;
   font-size: 24px;
-
 }
 
 .calculator .operator {
