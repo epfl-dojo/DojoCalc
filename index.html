@@ -10,39 +10,37 @@
 
 <body>
 	<h1>Hello Dojo</h1>
-	<form>
-		<input type="text" value="" id="zoneTxt"/>
-      <table border=1>
-        <tr>
-          <td><input type="button" value="CE" /></td>
-          <td><input type="button" value="" /></td>
-          <td><input type="button" value="/" /></td>
-          <td><input type="button" value="*" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="7" /></td>
-          <td><input type="button" value="8" /></td>
-          <td><input type="button" value="9" /></td>
-          <td><input type="button" value="-" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="4" /></td>
-          <td><input type="button" value="5" /></td>
-          <td><input type="button" value="6" /></td>
-          <td><input type="button" value="+" /></td>
-        </tr>
-        <tr>
-          <td><input type="button" value="1" /></td>
-          <td><input type="button" value="2" /></td>
-          <td><input type="button" value="3" /></td>
-          <td rowspan="2"><input type="button" value="=" style="height:50px;" /></td>
-        </tr>
-        <tr>
-          <td colspan=2><input type="button" value="0" style="width:100%;" /</td>
-          <td><input type="button" value="." /></td>
-        <tr/>
-      </table>
-    </form>
+
+  <div id='calc1' class='calculator'>
+    <span id='calc-display1' class='display'>1234</span>
+
+    <button class='operator'>CE</button>
+    <button class='operator'>/</button>
+    <button class='operator'>*</button>
+    <button class='operator'>-</button>
+
+    <button class='digit'>7</button>
+    <button class='digit'>8</button>
+    <button class='digit'>9</button>
+    <button class='operator button-plus' style='grid-row: 3 / span 2; grid-column: 4 / 4;'>+</button>
+
+    <button class='digit'>4</button>
+    <button class='digit'>5</button>
+    <button class='digit'>6</button>
+
+    <button class='digit'>1</button>
+    <button class='digit'>2</button>
+    <button class='digit'>3</button>
+    <button class='operator button-submit' style='grid-row: 5 / span 2; grid-column: 4 / 4;'>=</button>
+
+    <button class='digit' style='grid-column: 1 / span 2;'>0</button>
+    <button class='operator'>.</button>
+
+  </div>
+
+
+
+
     <script src="script.js"></script>
 <img style="max-height: 250px;" src="https://www.ebuyer.com/blog/wp-content/uploads/2014/07/buttons-on-a-calculator-header1.jpg">
   </body>
